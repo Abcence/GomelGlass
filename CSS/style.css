@@ -1,3 +1,34 @@
 .wrapper {
-    background-color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8a845e;
+    padding: 10px;
+    width: 300px;
+    display: inline-block;
+    color: #181467;
+    font-weight: 600;
+}
+
+.wrapper:hover {
+    background-color: #76ee45;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.inline {
+    background-color: #1ee;
+}
+
+.inline:hover {
+    width: 121px;
+    border: 5px solid;
+    border-color: #23ee67
+}
+
+div,
+a,
+label,
+body,
+head {
+    margin: 0;
+    padding: 0;
 }
